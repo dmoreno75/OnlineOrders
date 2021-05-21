@@ -1,0 +1,42 @@
+{
+  "Created": "27/05/2020 10:48:00",
+  "Number": "ABC123457",
+  "TotalPrice": "50",
+  "TotalDelivery": "10",
+  "TotalItemsCount": "2",
+  "Customer": {
+    "FirstName": "Joe",
+    "LastName": "Smith",
+    "Email": "dmoreno@uk.com",
+    "PhoneNumber": "0123456498",
+    "Address": {
+      "FullAddress": "1, Waterside",
+      "Town": "Accrington",
+      "Postcode": "BB51NA"
+    }
+  },
+  "OrderLines": [
+    {
+      "SkuVariant": "TOASTER-v123456",
+      "Sku": "TOASTER",
+      "Price": 50,
+      "Discount": 10,
+      "AppliedPromotion": "VOUCHER10"
+    }
+  ],
+  "Payment": {
+    "PaymentType": "Card",
+    "AmountAuthorized": "50",
+    "CardDetails": {
+      "ExpYear": 2022,
+      "ExpMonth": 5,
+      "CardHolder": "Joe Smith",
+      "CardNumber": "############1234"
+    }
+  },
+  "Delivery": {
+    "DateSelected": "7/06/2020 10:48:00",
+    "TimeslotId": "Evening",
+    "Price": 10
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenLand.OnlineOrders.Data", "FrozenLand.OnlineOrders.Data\FrozenLand.OnlineOrders.Data.csproj", "{0004C63B-943A-4F38-8C66-29109C764363}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenLand.OnlineOrders.Website", "FrozenLand.OnlineOrders.Website\FrozenLand.OnlineOrders.Website.csproj", "{F0B37D25-6BB2-4BB4-80EF-2CA1997716A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenLand.OnlineOrders.Domain", "FrozenLand.OnlineOrders.Domain\FrozenLand.OnlineOrders.Domain.csproj", "{B834E960-3FA6-433D-BD8B-3E920F863E7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenLand.OnlineOrders.Data.Tests", "FrozenLand.OnlineOrders.Data.Tests\FrozenLand.OnlineOrders.Data.Tests.csproj", "{FFBF1266-BF08-4868-A718-14D1137A2650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrozenLand.OnlineOrders.Website.IntegrationTests", "FrozenLand.OnlineOrders.Website.IntegrationTests\FrozenLand.OnlineOrders.Website.IntegrationTests.csproj", "{6025C487-7C6E-4EA1-A819-D2FE9F3E04BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleOrders", "SampleOrders", "{4EB85897-D457-4FE3-847B-D2B33AC2B407}"
+	ProjectSection(SolutionItems) = preProject
+		ABC123457.json = ABC123457.json
+		ABC123458.json = ABC123458.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0004C63B-943A-4F38-8C66-29109C764363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0004C63B-943A-4F38-8C66-29109C764363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0004C63B-943A-4F38-8C66-29109C764363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0004C63B-943A-4F38-8C66-29109C764363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B37D25-6BB2-4BB4-80EF-2CA1997716A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B37D25-6BB2-4BB4-80EF-2CA1997716A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B37D25-6BB2-4BB4-80EF-2CA1997716A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B37D25-6BB2-4BB4-80EF-2CA1997716A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B834E960-3FA6-433D-BD8B-3E920F863E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B834E960-3FA6-433D-BD8B-3E920F863E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B834E960-3FA6-433D-BD8B-3E920F863E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B834E960-3FA6-433D-BD8B-3E920F863E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBF1266-BF08-4868-A718-14D1137A2650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBF1266-BF08-4868-A718-14D1137A2650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBF1266-BF08-4868-A718-14D1137A2650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBF1266-BF08-4868-A718-14D1137A2650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6025C487-7C6E-4EA1-A819-D2FE9F3E04BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6025C487-7C6E-4EA1-A819-D2FE9F3E04BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6025C487-7C6E-4EA1-A819-D2FE9F3E04BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6025C487-7C6E-4EA1-A819-D2FE9F3E04BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A4DA05-5ED2-4DD9-BE86-98A241DE44EC}
+	EndGlobalSection
+EndGlobal
